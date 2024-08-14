@@ -1,0 +1,252 @@
+/*
+
+CSS for Home (About Page)
+
+*/
+
+
+@font-face {
+    font-family: custom;
+    src: url(Glober-Trial-SemiBold.otf);
+
+}
+
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: custom;
+    box-sizing: border-box;
+
+}
+
+body {
+
+
+    background-image: url(AB.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background-position: center;
+    background-size: 120%;
+
+    background-color: black;
+
+}
+
+.h {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: linear-gradient(black, transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+
+.bb {
+
+    background: transparent;
+    border: transparent;
+    min-height: 8vh;
+    max-width: 8vh;
+
+}
+
+.logo {
+
+    background: transparent;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.navbar a {
+
+    position: relative;
+    font-size: 20px;
+    color: #E3E3E3;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: custom;
+    cursor: pointer;
+}
+
+.navbar a::before {
+
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #E3E3E3;
+    transition: .3s;
+
+}
+
+.navbar a:hover::before {
+
+    width: 100%;
+
+}
+
+
+.BH {
+
+    padding-top: 8%;
+    padding-bottom: 2%;
+    color: #98c1d9;
+    position: relative;
+    text-align: center;
+    font-family: custom;
+
+
+}
+
+.sLine {
+
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: white;
+
+
+}
+
+
+
+.LargeButtons {
+
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: #e0fbfc;
+
+
+}
+
+.one {
+
+    width: 30%;
+    background-image: url("codeIMG.jpeg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    transition: 1s;
+    filter: grayscale(1);
+    cursor: pointer;
+    color: #ffffff;
+    border: transparent;
+
+}
+
+.one:hover {
+
+    width: 33%;
+    box-shadow: 0 0 100px #e0fbfc;
+    filter: grayscale(0);
+    color: #e0fbfc;
+
+}
+
+.two {
+
+    width: 30%;
+    background-image: url("Res.png");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    transition: 1s;
+    filter: invert(.4) grayscale(1);
+    cursor: pointer;
+    color: #000000;
+    border: transparent;
+
+}
+
+.two:hover {
+
+    width: 33%;
+    box-shadow: 0 0 100px #e0fbfc;
+    filter: grayscale(0);
+    filter: invert(0);
+    color: #3d5a80;
+
+}
+
+.three {
+
+    width: 30%;
+    background-image: url("Network.jpeg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    transition: 1s;
+    filter: grayscale(1);
+    filter: blur(100%);
+    cursor: pointer;
+    color: #ffffff;
+    border: transparent;
+
+}
+
+.three:hover {
+
+    width: 33%;
+    box-shadow: 0 0 100px #e0fbfc;
+    filter: grayscale(0);
+    color: #e0fbfc;
+
+}
+
+
+.LargeButtons :hover {
+
+    color: auto;
+
+}
+
+.Little {
+
+    height: 375px;
+    width: 550px;
+    margin-left: 5%;
+    border: none;
+    border-radius: 20px;
+
+
+
+}
+
+.Description {
+
+    font-family: sans-serif;
+    margin-right: 5%;
+    color: #e0fbfc;
+    font-size: 12pt;
+    margin-left: 2%;
+    letter-spacing: .75px;
+    word-spacing: 2px;
+    line-height: 30px;
+
+
+}
+
+.AB {
+
+    display: inline-flex;
+
+}

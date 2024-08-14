@@ -1,0 +1,121 @@
+/*
+
+CSS for Max_Lovinger_Website
+
+*/
+
+@font-face {
+    font-family: custom;
+    src: url(GloberDemo-Thin.otf);
+
+}
+
+
+
+body {
+
+
+    background-image: url(Welcome.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    background-size: 110%;
+    padding: 5%;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+    background-color: black;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: #E3E3E3;
+
+}
+
+
+
+div.a {
+
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    margin-bottom: 3em;
+
+}
+
+
+button {
+
+    font: sans-serif;
+    font-weight: 900;
+    font-size: large;
+    min-height: 10vh;
+    min-width: 40vh;
+
+
+
+    display: block;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 4px;
+    padding: 1%;
+    background: transparent;
+    color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+    border-radius: 40px;
+    text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+
+}
+
+button:hover {
+
+    background: #FAFAFA;
+    box-shadow: 0 0 100px #FAFAFA;
+    color: black;
+
+}
+
+img {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    height: auto;
+
+}
+
+
+.OPTIM {
+
+
+    padding-top: 5%;
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: .1em;
+
+    font-size: small;
+
+
+}
+
+.UP {
+
+    color: #FAFAFA;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    font-size: small;
+
+
+}

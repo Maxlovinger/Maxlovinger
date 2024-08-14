@@ -1,0 +1,302 @@
+/*
+
+CSS for Resume Page
+
+*/
+
+@font-face {
+    font-family: custom;
+    src: url(Glober-Trial-SemiBold.otf);
+
+}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+
+
+
+    background-image: url(ResDrop.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 120%;
+
+
+
+}
+
+.h {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 100px;
+    background: linear-gradient(#3d5a80, transparent);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.bb {
+
+    background: transparent;
+    border: transparent;
+    min-height: 8vh;
+    max-width: 8vh;
+
+}
+
+.logo {
+
+    background: transparent;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.navbar a {
+
+    position: relative;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: custom;
+    cursor: pointer;
+}
+
+.navbar a::before {
+
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: .3s;
+
+}
+
+.navbar a:hover::before {
+
+    width: 100%;
+
+}
+
+.RES {
+
+    text-align: center;
+    padding-top: 8%;
+    color: #e0fbfc;
+    margin-bottom: 2%;
+
+}
+
+.sLine {
+
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #e0fbfc;
+
+}
+
+
+
+#accordian {
+
+    margin: 100px auto;
+    width: 70%;
+
+}
+
+#accordian li {
+
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: opacity(10%);
+
+}
+
+#accordian li label {
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    font-weight: 700;
+    color: #3d5a80;
+    cursor: pointer;
+
+
+}
+
+
+#accordian li label span {
+
+    transform: 45deg;
+    font-size: 30px;
+    color: black;
+
+
+}
+
+#accordian label+input[type="radio"] {
+
+    display: none;
+
+}
+
+#accordian .content {
+
+    padding: 0 30px;
+    line-height: 50px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+
+
+}
+
+#accordian label+input[type="radio"]:checked+.content {
+
+    max-height: 3000px;
+
+}
+
+#accordian p {
+
+    font-size: 18px;
+
+}
+
+#accordian .header {
+
+    font-size: 20px;
+    font-weight: 900;
+
+
+}
+
+#accordian .content .right {
+
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    font-style: normal;
+
+}
+
+#accordian .content .MajorMinor {
+
+    font-size: 18px;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+#accordian .content .norm {
+
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+#accordian .content .Bold {
+
+    font-size: 18px;
+    font-weight: 800;
+
+}
+
+#accordian .content .norm a {
+
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+
+}
+
+
+.PDF {
+
+    font-family: custom;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    font-size: 1em;
+    letter-spacing: .1em;
+    color: #3d5a80;
+    text-decoration: none;
+    background: transparent;
+    text-transform: uppercase;
+    border: 2px solid #3d5a80;
+    padding: 10px 30px;
+    z-index: 1;
+    transition: 1s;
+    overflow: hidden;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.PDF:hover {
+
+    transition-delay: 0s, 1s;
+    color: #e3e3e3;
+    box-shadow:
+        0 0 10px #3d5a80,
+        0 0 20px #3d5a80,
+        0 0 40px #3d5a80,
+        0 0 80px #3d5a80,
+        0 0 160px #3d5a80;
+
+}
+
+.PDF::before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -175px;
+    width: 0;
+    height: 100%;
+    background: #3d5a80;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: 1s;
+
+}
+
+.PDF:hover:before {
+
+    width: 100%;
+
+
+}

@@ -1,0 +1,118 @@
+/*
+
+CSS for Insta Bot Code
+
+*/
+
+@font-face {
+    font-family: custom;
+    src: url(Glober-Trial-SemiBold.otf);
+
+}
+
+
+body {
+
+    background-image: url(EM.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 120%;
+
+
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.IMG {
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 30px;
+
+
+    border: 20px;
+
+    width: 60%;
+    height: none;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+
+    border: 8px solid #98c1d9;
+    padding: 10px;
+
+}
+
+.text {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-family: custom;
+
+
+}
+
+.But {
+
+
+    font-family: sans-serif;
+
+
+
+    background: transparent;
+    color: white;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    padding: 30px 90px;
+    transition: 0.8s;
+
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+.But:hover {
+
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px #98c1d9;
+
+}
+
+
+.But .txt {
+
+    position: relative;
+    z-index: 1;
+
+}
+
+
+
+
+.alignment {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
